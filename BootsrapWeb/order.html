@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootsrap Web</title>
+  <!--meta tag to make website work on cross-devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Add the bootstrap link if you want default styling -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Add the google-fonts link if you want default styling -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap" />
+
+  <!-- Add font-awesome if you want default styling -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css">
+  <!-- Add the slick-.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css">
+  <!-- ADD the flag link if you want default styling-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="build/css/intlTelInput.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--  ADD the date library css if you want default styling -->
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet"
+    type="text/css" />
+  <!--  ADD the time library css if you want default styling -->
+  <link href="js/jquery.datetimepicker.min.css" rel="Stylesheet" type="text/css" />
+  <!--CSS EXTERNAL LINK-->
+  <link rel="stylesheet" href="css/style.css">
+    <!--CSS EXTERNAL LINK-->
+    <link rel="stylesheet" href="css/style2.css">
+
+</head>
+
+<body>
+  <!-- //===========================Header Start=================================// -->
+  <header id="header">
+    <div class="container">
+
+      <div class="top-nav">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">
+              <div class="f-space bar-shape">
+                <div class="shape-text">
+                  <p class="shape-txt">24/7</p>
+                </div>
+                <div class="shape-s shape-num1">866-727-3755</div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="images/24 hoursAsset 1.png" alt="missing"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main-nav order-nav">
+        <nav class="navbar nav-now navbar-expand-lg">
+          <div class="main-image main-image2">
+            <a class="navbar-brand" href="#"><img src="images/WritemyEssay_White.png" alt="missing"></a>
+          </div>
+          <button class="nav-button main-btn">
+            <p class="design-p main-p nav-b">ORDER NOW</p>
+          </button>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <div class="container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </span>
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item nav-padded">
+                <a class="nav-link " href="index.html">
+                  <p class="design-p main-p">HOME</p>
+                </a>
+              </li>
+              <li class="nav-item nav-padded">
+                <a class="nav-link" href="#">
+                  <p class="design-p main-p">PRICES</p>
+                </a>
+              </li>
+              <li class="nav-item nav-padded">
+                <a class="nav-link" href="#">
+                  <p class="design-p main-p">ABOUT US</p>
+                </a>
+              </li>
+              <div class="nav-btn">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <button class="nav-button">
+                      <p class="design-p main-p nav-b">ORDER NOW</p>
+                    </button>
+                  </a>
+              </div>
+              </li>
+              <li class="nav-item nav-padded">
+                <a class="nav-link" href="#"><i class="font-icon fa fa-user"></i>
+                  <p class="design-p main-p na nav-b nav-login">LOGIN</p>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+        </nav>
+      </div>
+
+
+    </div>
+    <!-- //===========================Header End=================================// -->
+  </header>
+  <!-- //===========================Form Start=================================// -->
+  <section id="form">
+    <div class="container">
+      <div class="form-head">
+        <div class="design-p change-me">Order Now</div>
+        <div class="design-h">Follow the steps to order | Write My Essay</div>
+      </div>
+
+      <div class="form-box">
+        <div class="row">
+          <div class="col-7">
+            <form  id="myform" method="post">
+              <div class="form-order">
+
+                <div class="accordion1" id="accordionExample1">
+
+                  <div class="card card-1">
+                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapse-b1"
+                      aria-expanded="false" aria-controls="collapse-b1">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-b1"
+                        aria-expanded="false" aria-controls="collapse-b1">
+                        <p class="form-para design-p" data-toggle="collapse" data-target="#collapse-b1"
+                          aria-expanded="false" aria-controls="collapse-b1">STEP 1/3 Calculate price</p>
+                      </button>
+                      <div class="form-shape" data-toggle="collapse" data-target="#collapse-b1" aria-expanded="false"
+                        aria-controls="collapse-b1">
+                        <img class="form-tick" src="tick.png" alt="missing">
+                      </div>
+                      </button>
+                    </div>
+
+                    <div id="collapse-b1" class="collapse show" aria-labelledby="headingOne"
+                      data-parent="#accordionExample1">
+                      <div class="card-body">
+                        <div class="form-1">
+                          <div class="form-group">
+                            <label class="same-label" for="email">Your Email</label>
+                            <input class="form-control" type="email" class="form-control" id="email"
+                              placeholder="Enter your email"  name="email">
+                          </div>
+                          <div class="form-group ">
+                            <label class="same-label" for="phone">Your Phone</label>
+                            <input id="phone" class="form-control say-hello "  placeholder="" name="phone" type="tel">
+                            <label class="phone-data" for="phone">(We will never spam you. By entering your phone number
+                              you agree to our Terms & Conditions.)</label>
+                          </div>
+                          <div class="form-group">
+                            <label class="same-label" for="doc-type">Document Type</label>
+                            <select  name="doc-type" class="form-control" id="doc-type">
+                              <option >What can we do for you?</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label class="same-label" for="ac-level">Academic Level</label>
+                            <select   name="ac-level" class="form-control" id="ac-level">
+                              <option >You study at?</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group  datetime-style">
+                            <label class="style-dead" for="datetimepicker datetimepicker1 form-control ">Deadline</label>
+                            <div class="datetime-group">
+                              <div class="form-date">
+                                <img class="same-img date-img" src="inputfields/calendar.png" alt="missing">
+                                <input name="date" class="same-style same-txt date-style" placeholder="MM - DD - YYYY"
+                                  id="datetimepicker" type="text">
+                              </div>
+                              <div class="form-time">
+                                <img class="time-img same-img" src="inputfields/clock.png" alt="missing">
+                                <input name="time" class="same-style same-txt time-style" placeholder="00 : 00" id="datetimepicker1"
+                                  type="text">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="same-label" for="pages">Number of Pages</label>
+                            <select name="pages" class="form-control" id="pages">
+                              <option >1 page ~ 300 words</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <div class=" btn-next  form-button">
+                             <a id="next-1" class="form-next same-label" 
+                                class="btn btn-default">Next
+                                Step</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card card-2">
+                    <div class="card-header" id="headingtwo" data-toggle="collapse" data-target="#collapse-b2"
+                      aria-expanded="false" aria-controls="collapse-b2">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapse-b2" aria-expanded="false" aria-controls="collapse-b2">
+                        <p class="form-para design-p" data-toggle="collapse" data-target="#collapse-b2"
+                          aria-expanded="false" aria-controls="collapse-b2">STEP 2/3 Calculate price</p>
+                      </button>
+                      <div class="form-shape" data-toggle="collapse" data-target="#collapse-b2" aria-expanded="false"
+                        aria-controls="collapse-b2">
+                        <img class="form-tick" src="tick.png" alt="missing">
+                      </div>
+                      </button>
+                    </div>
+
+                    <div id="collapse-b2" class="collapse" aria-labelledby="headingtwo"
+                      data-parent="#accordionExample1">
+                      <div class="card-body">
+                        <div class="form-2">
+                          <div class="form-group">
+                            <label class="same-label" for="title">Title </label>
+                            <input class="form-control" type="title" class="form-control" id="title"
+                              placeholder="Type assignment title" name="title">
+                          </div>
+
+                          <div class="form-group">
+                            <label class="same-label" for="sub-type">Subject</label>
+                            <select name="sub-type" class="form-control" id="sub-type">
+                              <option>Select your course name</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="same-label" for="cit-level">Citation Style</label>
+                            <select name="cit-level" class="form-control" id="cit-level">
+                              <option>Select a citation style</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="same-label" for="source">Number of sources</label>
+                            <select name="source" class="form-control" id="source">
+                              <option>e.g 3 Sources (1 Literary, 2 Peer Reviewed
+                                Academic Sources)</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="my-descrip" for="description">Description</label>
+                            <textarea  class="form-control"
+                              placeholder="Describe your task in detail or attach original file with teacher's instructions."
+                              rows="5" id="description" name="text"></textarea>
+                          </div>
+
+                          <div class="box__input">
+                             <!-- <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files " multiple />
+                            <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label> -->
+                            <div class="form-group drag-style">
+                              <input class="input-hide box__file" type="file" name="files[]" id="file"
+                                data-multiple-caption="{count} files " multiple />
+                              <div class="form-control upload-file">
+                                <img class="box__dragndrop upload-icon" src="images/upload.png" alt="missing">
+                                <label for="file" class="upload-label box__dragndrop">Drag Drop file here, or
+                                  browse</label>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class=" btn-bind form-group">
+                           <div class="btn-next ">
+                            <button id="onsubmit"  class="form-next same-label"
+                               class="btn btn-default" type="submit">Next
+                               Step</button>
+                           </div>
+                           <div class="btn-prev">
+                             <a id="back" class="form-prev same-label" class="btn btn-default">Step Back
+                             </a>
+                           </div>
+                         </div>
+
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card card-3">
+                    <div class="card-header" id="headingthree" data-toggle="collapse" data-target="#collapse-b3"
+                      aria-expanded="false" aria-controls="collapse-b3">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapse-b3" aria-expanded="false" aria-controls="collapse-b3">
+                        <p class="txt3-style form-para design-p collapsed" data-toggle="collapse" data-target="#collapse-b3"
+                          aria-expanded="false" aria-controls="collapse-b3">STEP 3/3 Make Payment</p>
+                      </button>
+                      <div class="form-shape" data-toggle="collapse" data-target="#collapse-b3" aria-expanded="false"
+                        aria-controls="collapse-b3">
+                        <img class="form-tick" src="tick.png" alt="missing">
+                      </div>
+                      </button>
+                    </div>
+
+                    <div id="collapse-b3" class="collapse" aria-labelledby="headingthree"
+                      data-parent="#accordionExample1">
+                      <div class="card-body b3-body">
+                        <div class="b3-text">
+                          <h3 class="b3-heading">Thanks for choosing us!</h3>
+                          <p class="b3-para">Your writer will start working on your order immediately after you make
+                            payment.
+                            All payments are securely processed via 2checkout. We accept Paypal and all major cards.</p>
+                        </div>
+                        <div id="show">
+                          <p class="show-input ">Name: <span class="show-span">Jhon Smith</span></p>
+                          <p class="show-input show-email">Email: <span class="show-span"></span></p>
+                          <p class="show-input show-phone">Phone No: <span class="show-span"></span></p>
+                          <p class="show-input show-doc">Document Type: <span class="show-span"></span></p>
+                          <p class="show-input show-ac">Academic Level: <span class="show-span"></span></p>
+                          <p class="show-input show-dt">Due Date & Time: <span class="show-span"><p
+                                class="show-below">(Your order will be delivered within 1 Day and 13 Hours)</p> </span>
+                          </p>
+                          <p class="show-input show-page">Number of Pages: <span class="show-span"></span></p>
+                          <p class="show-input show-sub">Subject: <span class="show-span"></span></p>
+                          <p class="show-input show-title">Title: <span class="show-span"></span></p>
+                          <p class="show-input show-cit">Citation Style: <span class="show-span"></span></p>
+                          <p class="show-input show-num">Number of Sources: <span class="show-span"></span></p>
+                          <p class="show-input show-desc">Describtion: <span class="show-span"></span></p>
+                          <p class="show-input show-padding show-attach">Attachments: <span
+                              show- class="show-span show-tach "></span></p>
+                        </div>
+
+                        <div class="btn-edit">
+                          <button id="edit" class="form-edit same-label" type="submit" class="btn btn-default">Edit
+                            Details</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+
+          <div class="col-5">
+            <div class="form-price">
+              <div class="form-subchild">
+                <div class="row padding-here">
+                  <div class="col-6">
+                    <div class="price-sec1">
+                      <div class="price-text1">
+                        <p class="price-para same-here">Your price</p>
+                        <h3 class="price-heading">$270</h3>
+                      </div>
+                      <div class="price-box1">
+                        <div class="price-image">
+                          <img class="price-img" src="images/sm-rect.png" alt="">
+                        </div>
+                        <p class="price-check same-here">Service Guarantee</p>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="price-sec2">
+                      <p class=" same-here">Was : <span class="price-was">$540</span></p>
+                      <p class="price-now same-here">Now : $540</p>
+                      <p class="price-save same-here">You Save: $270</p>
+                      <p class="offer-end same-here">Offer ends:</p>
+                      <div class="price-box2">
+                        <div class="price-image">
+                          <img class="price-img2" src="images/sm-clock.png" alt="">
+                        </div>
+                        <p class="price-check2 same-here">0 Days 17:49:48</p>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#demo" class="promo-tab" data-toggle="collapse">
+                  <div class="promo-text">
+                    <p class="promo-txt same-here">Promo Code</p>
+                  </div>
+                  <div class="promo-image">
+                    <img href="#demo" class="promo-img collapsed" data-toggle="collapse" src="images/promo-arrow.png" alt="">
+                  </div>
+                </a>
+
+                <div id="demo" class="collapse input-price">
+                  <p class="input-color"></p>
+                  <div class="input-button">
+                    <button class="input-btn ">Apply</button>
+                  </div>
+                </div>
+              </div>
+              <div class="price-total">
+                <p class="price-ttext">TOTAL AMOUNT</p>
+                <p class="price-tnum">$170</p>
+              </div>
+
+
+            </div>
+            <div class="form-payment">
+              <div class="pay-text">
+                <p class="pay-txt">Procced to Checkout</p>
+              </div>
+              <div class="pay-text1">
+                <p class="pay-txt1">I agree with <span class="span-change"> policies</span> and <span
+                    class="span-change"> terms and conditions</span> by clicking button above</p>
+              </div>
+              <div class="pay-opt">
+                <p class="pay-bold">Payment Option</p>
+                <div class="pay-image">
+                  <img class="pay-img" src="images/paypal.png" alt="">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- //===========================Form End=================================// -->
+  </section>
+
+  <!-- //===========================Question Start=================================// -->
+  <section id="question">
+    <div class="container">
+      <div class="question-text">
+        <h3 class="design-h current-h">FREQUENTLY ASKED QUESTIONS</h3>
+        <h3 class="design-h replace-h">FAQS</h3>
+      </div>
+
+      <div id="accordion">
+
+        <div class="card card-box">
+          <div class="card-header card-info collapsed" data-toggle="collapse" href="#collapseOne">
+            <a class="card-link card-text" data-toggle="collapse" href="#collapseOne">
+              How do I get my essay from 5StarEssays?
+            </a>
+            <a class="card-link card-image">
+              <div class="bg-image collapsed" data-toggle="collapse" href="#collapseOne"></div>
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse  sect-2" data-parent="#accordion">
+            <div class="card-body card-here">
+              We notify you at the email address you provide when placing your order that your essay
+              is ready for pickup. Then you’ll go to your personal dashboard on our website where you’ll
+              find your work available for immediate download to your device.
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-box">
+          <div class="card-header card-info collapsed" data-toggle="collapse" href="#collapsetwo">
+            <a class="card-link card-text" data-toggle="collapse" href="#collapsetwo">
+              If my essay requirements change, can I get rewrites?
+            </a>
+            <a class="card-link card-image">
+              <div class="bg-image collapsed" data-toggle="collapse" href="#collapsetwo"></div>
+            </a>
+          </div>
+          <div id="collapsetwo" class="collapse  sect-2" data-parent="#accordion">
+            <div class="card-body card-here">
+              We notify you at the email address you provide when placing your order that your essay
+              is ready for pickup. Then you’ll go to your personal dashboard on our website where you’ll
+              find your work available for immediate download to your device.
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-box">
+          <div class="card-header card-info collapsed" data-toggle="collapse" href="#collapsethree">
+            <a class="card-link card-text" data-toggle="collapse" href="#collapsethree">
+              I’m worried about plagiarism. What assurances can you provide?
+            </a>
+            <a class="card-link card-image">
+              <div class="bg-image collapsed" data-toggle="collapse" href="#collapsethree"></div>
+            </a>
+          </div>
+          <div id="collapsethree" class="collapse  sect-2" data-parent="#accordion">
+            <div class="card-body card-here">
+              We notify you at the email address you provide when placing your order that your essay
+              is ready for pickup. Then you’ll go to your personal dashboard on our website where you’ll
+              find your work available for immediate download to your device.
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-box">
+          <div class="card-header card-info collapsed" data-toggle="collapse" href="#collapsefour">
+            <a class="card-link card-text" data-toggle="collapse" href="#collapsefour">
+              What is the refund policy?
+            </a>
+            <a class="card-link card-image">
+              <div class="bg-image collapsed" data-toggle="collapse" href="#collapsefour"></div>
+            </a>
+          </div>
+          <div id="collapsefour" class="collapse  sect-2" data-parent="#accordion">
+            <div class="card-body card-here">
+              We notify you at the email address you provide when placing your order that your essay
+              is ready for pickup. Then you’ll go to your personal dashboard on our website where you’ll
+              find your work available for immediate download to your device.
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- //===========================Question End=================================// -->
+  </section>
+  <!-- //===========================Query Start=================================// -->
+  <section id="query">
+    <div class="container">
+      <div class="query-text">
+        <h3 class="design-h">OTHER RELATED QUESTIONS YOU MAY HAVE</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="query-box">
+            <h4 class="query-h">Essay Writing Service</h4>
+            <img class="query-image" src="../BootsrapWeb/images/arrow.png" alt="missing">
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="query-box">
+            <h4 class="query-h">Essay Writing Service</h4>
+            <img class="query-image" src="../BootsrapWeb/images/arrow.png" alt="missing">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="query-box">
+            <h4 class="query-h">Essay Writing Service</h4>
+            <img class="query-image" src="../BootsrapWeb/images/arrow.png" alt="missing">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="query-button">
+        <button class="btn-design">ORDER NOW</button>
+      </div>
+    </div>
+    <!-- //===========================Query End=================================// -->
+  </section>
+  <!-- //===========================Navigate Start=================================// -->
+  <section id="navigate">
+    <div class="container">
+      <div class="navigate-text">
+        <h3 class="design-h">QUICK NAVIGATION</h3>
+      </div>
+      <div class="navigate-links">
+        <div class="row">
+
+          <div class="col-lg-3 col-6">
+            <div class="navigate-info">
+              <a href="">
+                <h3 class="navigate-txt hide-me">Home</h3>
+              </a>
+              <a href="">
+                <h3 class="navigate-txt navi-h hide-me">Contact</h3>
+              </a>
+              <a href="">
+                <p class="navigate-para navigate-txt">Essay Examples</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Literary Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Education Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Essay Writing Service</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Buy Speeches</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Do My Homework</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Business Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Management Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Dissertation Writing Services</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Custom Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">Cheap Research Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">How to Write a Term Paper</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">Speech Topics</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">College Essay</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="navigate-info">
+              <a href="">
+                <h3 class="navigate-txt hide-me">Order</h3>
+              </a>
+              <a href="">
+                <h3 class="navigate-txt navi-h hide-me">Blog</h3>
+              </a>
+              <a href="">
+                <p class="navigate-para navigate-txt">Essay Examples</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Literary Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Education Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Essay Writing Service</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Buy Speeches</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Do My Homework</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Business Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Management Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Dissertation Writing Services</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Custom Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">Cheap Research Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">How to Write a Term Paper</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">Speech Topics</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt hide-me">College Essay</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 hide-me">
+            <div class="navigate-info">
+              <a href="">
+                <h3 class="navigate-txt">Prices</h3>
+              </a>
+              <a href="">
+                <h3 class="navigate-txt navi-h">Literary Essay</h3>
+              </a>
+              <a href="">
+                <p class="navigate-para navigate-txt ">Essay Examples</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Literary Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Education Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Essay Writing Service</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Buy Speeches</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Do My Homework</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Business Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Management Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Dissertation Writing Services</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Custom Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Cheap Research Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">How to Write a Term Paper</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Speech Topics</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">College Essay</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6 hide-me">
+            <div class="navigate-info">
+              <a href="">
+                <h3 class="navigate-txt  ">About Us</h3>
+              </a>
+              <a href="">
+                <h3 class="navigate-txt navi-h">Literary Essay</h3>
+              </a>
+              <a href="">
+                <p class="navigate-para navigate-txt">Essay Examples</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Literary Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Education Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Essay Writing Service</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Buy Speeches</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Do My Homework</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Business Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Management Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Dissertation Writing Services</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Custom Essay</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Cheap Research Papers</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">How to Write a Term Paper</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">Speech Topics</p>
+              </a>
+              <a href="">
+                <p class="navigate-txt">College Essay</p>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- //===========================Navigate End=================================// -->
+  </section>
+
+  <!-- //===========================Footer Start=================================// -->
+  <footer id="footer">
+    <div class="f-container container">
+      <div class="footer-bind">
+        <div class="container">
+
+          <div class="footer-box">
+            <div class="row first">
+              <div class="footer-logo">
+                <img class="footer-limg" src="images/footer-logo.png" alt="">
+              </div>
+              <div class="footer-images">
+                <img src="images/gold.png" alt="missing">
+                <img class="footer-single" src="images/sati.png" alt="missing">
+                <img class="footer-single" src="images/back.png" alt="missing">
+                <img class="footer-single" src="images/success.png" alt="missing">
+              </div>
+              <div class="footer-media">
+                <a href=""><img class="footer-icon" src="images/pinterest.png" alt=""></a>
+                <a href=""><img class="footer-icon" src="images/twitter.png" alt=""></a>
+                <a href=""><img class="footer-icon" src="images/facebook.png" alt=""></a>
+                <a href=""><img class="footer-icon" src="images/youtube.png" alt=""></a>
+                <a href=""><img class="footer-icon" src="images/instagram.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-bar">
+            <div class="row secound">
+              <div class="f-space bar-text">
+                <p class="bar-txt">PRIVACY POLICY | TERMS & CONDITIONS</p>
+              </div>
+
+              <div class="f-space bar-shape">
+                <div class="shape-text">
+                  <p class="shape-txt">24/7</p>
+                </div>
+                <div class="shape-s shape-num1">866-727-3755</div>
+              </div>
+
+              <div class="f-space bar-credit show-credit">
+                <img class="f-credit" src="images/footer-card.png" alt="missing">
+              </div>
+
+              <div class="f-space bar-card">
+                <img class="f-card" src="images/protect.png" alt="missing">
+              </div>
+
+              <div class="f-space bar-credit hide-credit">
+                <img class="f-credit" src="images/footer-card.png" alt="missing">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="footer-copy">
+            <div class="copy-text">
+              <h3 class="copy-h">&copy; 2010 - 2020 5staressay. All rights reserved.</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- //===========================Footer End=================================// -->
+  </footer>
+
+
+
+  <!--Add JS links if you want default styling -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.datetimepicker.full.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+  <script src="build/js/intlTelInput.js"></script>
+  <script>
+    var input = document.querySelector("#phone");
+    window.intlTelInput(input, {
+      // allowDropdown: false,
+      // autoHideDialCode: false,
+      // autoPlaceholder: "off",
+      // dropdownContainer: document.body,
+      // excludeCountries: ["us"],
+      // formatOnDisplay: false,
+      // geoIpLookup: function(callback) {
+      //   $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
+      //     var countryCode = (resp && resp.country) ? resp.country : "";
+      //     callback(countryCode);
+      //   });
+      // },
+      // hiddenInput: "full_number",
+      // initialCountry: "auto",
+      // localizedCountries: { 'de': 'Deutschland' },
+      // nationalMode: false,
+      // onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
+      // placeholderNumberType: "MOBILE",
+      // preferredCountries: ['cn', 'jp'],
+      // separateDialCode: true,
+      utilsScript: "build/js/utils.js",
+    });
+  </script>
+  <script>
+    $(function () {
+      jQuery('#datetimepicker1').datetimepicker({
+        datepicker: false,
+        format: 'H:i'
+      });
+    });
+  </script>
+  <script>
+    jQuery.datetimepicker.setLocale('de');
+
+    jQuery('#datetimepicker').datetimepicker({
+      i18n: {
+        de: {
+          months: [
+            'Januar', 'Februar', 'März', 'April',
+            'Mai', 'Juni', 'Juli', 'August',
+            'September', 'Oktober', 'November', 'Dezember',
+          ],
+          dayOfWeek: [
+            "So.", "Mo", "Di", "Mi",
+            "Do", "Fr", "Sa.",
+          ]
+        }
+      },
+      timepicker: false,
+      format: 'd.m.Y'
+    });
+  </script>
+  <script>
+
+    var isAdvancedUpload = function () {
+      var div = document.createElement('div');
+      return (('draggable' in div) || ('ondragstart' in div && 'ondrop' in div)) && 'FormData' in window && 'FileReader' in window;
+    }();
+
+  </script>
+  <script>
+    $(document).ready(function () {
+      $("#headingthree").click(function () {
+        $(".form-payment").toggleClass("main");
+      });
+    });
+    $(document).ready(function () {
+      $("#onsubmit").click(function () {
+        $(".form-payment").show("main");
+      });
+    });
+  </script>
+ 
+
+<!-- =======================JQUERY FOR NEXT AND BACK BUTTON oF ACCORDIONS ========================= -->
+  <script>
+$('#next-1').click(function(){
+  $('#collapse-b2:not(".show")')
+    .collapse('show');
+});
+$('#onsubmit').click(function(){
+  $('#collapse-b3:not(".show")')
+    .collapse('show');
+  // alert("hello iam dead!");
+});
+$('#back').click(function(){
+  $('#collapse-b1:not(".show")')
+    .collapse('show');
+});
+</script>
+
+<script>
+$('#myform').submit(function (e) {
+      e.preventDefault();
+      var values = $('#myform').serializeArray();
+      var file = $('#file').val().replace(/.*(\/|\\)/, '');
+   
+     $(".show-email span").append(values[0].value);
+     $(".show-phone span").append(values[1].value);
+     $(".show-doc span").append(values[2].value);
+     $(".show-ac span").append(values[3].value);
+     $(".show-dt span").append(values[4].value);
+     $(".show-page span").append(values[5].value);
+     $(".show-sub span").append(values[6].value);
+     $(".show-title span").append(values[7].value);
+     $(".show-cit span").append(values[8].value);
+     $(".show-num span").append(values[9].value);
+     $(".show-desc span").append(values[10].value);    
+     $(".show-attach span").append(file);
+   
+    });
+
+    $('#file').on('change', function(){ 
+      var file = $('#file').val().replace(/.*(\/|\\)/, '');
+      $('.upload-label').empty();
+    $(".upload-label").append(file);
+     });
+// ===========use to show data of single input===============
+//     var values = {};
+// $.each($("#myform").serializeArray(), function (i, field) {
+//     values[field.name] = field.value;
+// });
+
+// var getValue = function (valueName) {
+//     return values[valueName];
+// };
+// var first = getValue("email");
+// console.log(first);
+// $("#show").append(first + " & ");
+// $("#results").append(last);
+  
+</script>
+
+</body>
+
+</html>
